@@ -10,16 +10,22 @@
 // // output
 // alert(welcomeMsg);
 
-var buttonClick = document.querySelector('#btn-translate');
-
-console.log(buttonClick);
-
-buttonClick.addEventListener("click", function clickEventHandler(){
-    console.log('Clicked...!!!!')
-    console.log('Input '+ txtInput.value);
-})
-
-//////
+var buttonTranslate = document.querySelector('#btn-translate');
 var txtInput = document.querySelector('#txt-Input');
+var outputDiv = document.querySelector('#output');
 
-console.log(txtInput);
+
+
+// console.log(buttonTranslate);
+
+
+function clickEventHandler(){
+    // console.log("clicked...!!!");
+    // console.log("Input"+ txtInput.value)
+    outputDiv.innerText = "translated :"+ txtInput.value
+}
+
+
+buttonTranslate.addEventListener("click", clickEventHandler)
+
+// console.log(txtInput);
