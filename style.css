@@ -19,6 +19,8 @@ header {
     background-color: var(--primary);
     text-align: center;
     padding: 0.5rem;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 section {
@@ -53,7 +55,7 @@ button {
     width: 100%;
     min-height: 10vh;
     max-height: 20vh;
-    overflow: scroll;
+    /* overflow: scroll; */
     border: 1px solid var(--black);
 }
 
@@ -64,6 +66,8 @@ footer {
     padding: 0.5rem;
     background-color: var(--primary);
     text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 footer p {
@@ -75,3 +79,4 @@ footer p {
 .footer-heading {
     font-size: x-large;
 }
+
