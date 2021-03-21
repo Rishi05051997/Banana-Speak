@@ -80,3 +80,10 @@ footer p {
     font-size: x-large;
 }
 
+.footer-subHeading {
+    font-size: 1.3rem;
+}
+
+.footer-subHeading a:hover {
+    color: white;
+}
